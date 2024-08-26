@@ -1,7 +1,7 @@
 todo Read a book
 todo Finish homework
 deadline Complete project /by 2023-09-30
-event Team meeting /from 2023-09-15 14:00 /to 2023-09-15 15:30
+event Team meeting /from 2023-09-15 /to 2023-09-15
 list
 mark 2
 unmark 2
