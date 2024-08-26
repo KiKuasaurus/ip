@@ -1,8 +1,11 @@
 import ontos.Ontos;
 
+/**
+ * Entry point of the Ontos chatbot.
+ * Initializes the application and starts the interaction with the user.
+ */
 public class Main {
     public static void main(String[] args) {
-        Ontos ontos = new Ontos("Ontos");
-        ontos.run();
+        new Ontos("Ontos").run();;
   }
 }

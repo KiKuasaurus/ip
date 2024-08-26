@@ -7,8 +7,18 @@ import ontos.commands.Command;
 import ontos.exception.OntosException;
 import ontos.task.Task;
 
+/**
+ * Representing a method used to parse inputs and return the action that the user wants to take.
+ */
 public class Parser {
-
+    /**
+     * Parses the user input and returns the corresponding Command.
+     *
+     * @param input The user's input as a String.
+     * @return A Command object representing the user's desired action.
+     * @throws IllegalArgumentException if the input is invalid or unrecognized.
+     * @throws OntosException if there is an issue with the input specific to task creation or manipulation.
+     */
     public static Command parse(String input) throws IllegalArgumentException, OntosException{
         if (input.equalsIgnoreCase("bye")) {
             return new Command.ByeCommand();
